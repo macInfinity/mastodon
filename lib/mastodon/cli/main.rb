@@ -18,6 +18,9 @@ require_relative 'settings'
 require_relative 'statuses'
 require_relative 'upgrade'
 
+#
+# small-change comment
+
 module Mastodon::CLI
   class Main < Base
     desc 'media SUBCOMMAND ...ARGS', 'Manage media files'
